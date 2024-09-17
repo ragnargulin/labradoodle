@@ -1,0 +1,16 @@
+body {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    background-color: grey;
+}
+
+.carousel-inner {
+    height: 500px; 
+  }
+  
+  .carousel-img {
+    max-width: 100%;
+    width: auto; 
+    margin: 0 auto;
+  }
+  
