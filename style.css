@@ -1,42 +1,5 @@
 body {
-<<<<<<< HEAD
     font-family: Arial, sans-serif;
-}
-
-.footer {
-    display: flex;
-    justify-content: space-between; 
-    padding: 50px;
-    background-color: #333;
-    color: white;
-    height: 50vw
-}
-
-.footer-right {
-    display: flex;
-    flex-direction: column;  
-    align-items: flex-end;   
-}
-
-.footer-right form {
-    margin-bottom: 20px;  
-}
-
-.images-footer {
-    display: flex;  
-    justify-content: flex-end; 
-}
-
-.images-footer img {
-    width: 25%;  
-    height: 25%;
-    margin-left: 10px;
-    object-fit: cover;
-}
-=======
-    padding-left: 15vw;
-    padding-right: 15vw;
-    background-color: grey;
 }
 
 .carousel-inner {
@@ -48,5 +11,63 @@ body {
     width: auto; 
     margin: 0 auto;
   }
+
+  footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
   
->>>>>>> fc8e19f04543d2ff0ab4fd510cc1c618a8ceb51b
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Lägg till detta för att hantera responsivitet */
+  }
+  
+  .contact-info, .newsletter-signup {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .social-media-footer {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column; 
+    flex: 1;
+  }
+  
+  .social-media-footer a {
+    margin: 0 10px;
+  }
+  
+  .social-media-footer img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .newsletter-signup {
+    text-align: center;
+  }
+  
+  .newsletter-signup form {
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-signup input {
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+  
+  .newsletter-signup button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  
+
