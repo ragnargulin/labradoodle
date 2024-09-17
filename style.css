@@ -8,6 +8,7 @@ body {
     margin-left: 15vw;
     margin-right: 15vw;
     background-color: whitesmoke;
+    font-family: Arial, sans-serif;
 }
 
 .carousel-inner {
@@ -39,3 +40,55 @@ display:none;
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {...}
   
+=======
+  footer {
+    background-color: red;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+  }
+  
+  
+  .social-media-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  .social-media-footer img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .newsletter-signup {
+    text-align: center;
+  }
+  
+  .newsletter-signup form {
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-signup input {
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+  
+  .newsletter-signup button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  
+
