@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap; /* Lägg till detta för att hantera responsivitet */
+    flex-wrap: wrap; 
   }
   
   .contact-info, .newsletter-signup {
