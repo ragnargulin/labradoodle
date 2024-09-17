@@ -1,7 +1,3 @@
-Här är texten omformaterad som en checklista för ett README.md-dokument:
-
----
-
 **Inlämningsuppgift 2 (Gruppuppgift)**
 
 Bilda en grupp med 2 personer. Ni ska tillsammans välja en hemsida som ni vill förbättra med hjälp av HTML och CSS. Målet är att hemsidan ska bli mer tillgänglig och få en mer användarvänlig design än tidigare. Hemsidan ska innehålla 2-4 sidor och vara responsiv. Hemsidan ska även ha någon dynamisk funktionalitet som förbättrar användarupplevelsen.
