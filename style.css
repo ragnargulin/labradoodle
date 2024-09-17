@@ -24,22 +24,14 @@ body {
     flex-wrap: wrap; 
   }
   
-  .contact-info, .newsletter-signup {
-    flex: 1;
-    margin: 0 10px;
-  }
   
   .social-media-footer {
     display: flex;
     justify-content: center;
-    align-items: left;
-    flex-direction: column; 
-    flex: 1;
+    align-items: center;
+    flex-direction: column;
   }
   
-  .social-media-footer a {
-    margin: 0 10px;
-  }
   
   .social-media-footer img {
     width: 24px;
