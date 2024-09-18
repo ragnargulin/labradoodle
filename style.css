@@ -1,12 +1,11 @@
 html{
     background-color: lightgrey;
-
-
 }
 
 body {
     margin-left: 15vw;
     margin-right: 15vw;
+    margin: 0 15vw;
     background-color: whitesmoke;
     font-family: Arial, sans-serif;
 }
@@ -29,21 +28,24 @@ display:none;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+@media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+@media only screen and (min-width: 992px) {}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
-  
-=======
+@media only screen and (min-width: 1200px) {}
+
+
+
+/*footer*/
+
   footer {
-    background-color: red;
-    padding: 20px;
+    background-color: #ffff;
+    padding: 40px;
   }
   
   .footer-container {
@@ -57,7 +59,7 @@ display:none;
   .social-media-footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
   }
   
@@ -88,4 +90,3 @@ display:none;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-  }
