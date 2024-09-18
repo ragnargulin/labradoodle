@@ -1,12 +1,17 @@
 .main-about {
     width: auto;
-    padding: 3%;
+    padding: 5%;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5%;
 }
 
-.main-info {
+
+
+.main-julia {
+    width: auto;
+    padding: 5%;
     background-color: lightblue;
-    height: 87vw;
     border-radius: 20px;
-    padding: 3%;
-    
+    margin: 5%;
 }

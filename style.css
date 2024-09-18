@@ -1,12 +1,11 @@
 html{
     background-color: lightgrey;
-
-
 }
 
 body {
     margin-left: 15vw;
     margin-right: 15vw;
+    margin: 0 15vw;
     background-color: whitesmoke;
     font-family: Arial, sans-serif;
 }
