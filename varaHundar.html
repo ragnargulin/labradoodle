@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="sv">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Labradoodle Sweden</title>
-   <link rel="stylesheet" href="style.css">
-   <script src="headerComp.js" type="text/javascript" defer></script>
 
-   <style>
-    
-   </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labradoodle Sweden</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="headerComp.js" type="text/javascript" defer></script>
+
+    <style>
+
+    </style>
 </head>
 
 <html lang="en">
@@ -26,33 +27,37 @@
 
 <body>
     <header>
-        <div class="d-flex justify-content-between align-items-center" style="height: 100px; background-color: lightblue;">
+        <div class="d-flex justify-content-between align-items-center"
+            style="height: 100px; background-color: lightblue;">
             <div class="p-3 logo"><img src="assets/icons/logo.svg" style="width: 60%;"></div>
-            <div class="p-3 bone"><img src="assets/icons/dog.svg" style="height: 110px; transform: scale(-1,1)"></div>
+            <div class="p-3 bone" onclick="bork()"><img src="assets/icons/dog.svg" style="height: 110px;"></div>
+
         </div>
+
     </header>
-    
-    <!-- Navigation -->
+
+
+
     <nav class="navbar sticky-top navbar-light bg-light bg-body-tertiary navbar-expand-lg">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="index.html">Startsida</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Startsida</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="about.html">Om oss</a>
+                        <a class="nav-link" href="about.html">Om oss</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">Nyheter</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Våra hundar</a>
+                        <a class="nav-link active" aria-current="page" href="varaHundar.html">Våra hundar</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -68,6 +73,7 @@
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -88,247 +94,281 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">Hälsningar</a>
                     </li>
+
                 </ul>
             </div>
         </div>
     </nav>
 
-       
 
 
-                <!-- Hanar -->
-                <section class="container mt-5">
-                    <h1 class="text-center mb-5">Hanar</h1>
-            
-                    <!-- Alfons -->
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h2 class="card-title">Brummas Blåklint (Alfons)</h2>
-                            <img style="height:200px;" src="assets/images/dogsCarousel/dog1.jpg">
-                            <p class="text-muted">Född: 19 maj 2023 | Färg: Brun abstrakt | Vikt: 15 kg</p>
-                            <p>Jag fick möjligheten att göra ett byte! En av mina tikar mot en av Brummas labradoodles hanar, kunde jag motstå detta? Såklart inte! Lilla Alfons bor nu hos en fodervärdsfamilj i Oskarshamn och vi kommer följa hans utveckling på nära håll. Hans husse är nämligen jobbarkompis med min mamma, helt perfekt! Alfons förväntas bli av medium storlek och väger 15 kg. Vi ser fram emot att han ska få bli pappa till valparna hos oss på Allegretto's.
 
-                                Mamma Nina är skolhund till vardags och pappa Milton är under utbildning till vårdhund. Vi har därför höga förväntningar på Alfons mentalitet. Pälsen är öppen, lockig och fällfri (fleece).</p>
-            
-                            <h5>Föräldrar</h5>
-                            <ul>
-                                <li>Mor: Brummas Pralin (Nina)</li>
-                                <li>Far: Oxiekullars Rex (Milton)</li>
-                            </ul>
-            
-                            <h5>Tester och Resultat</h5>
-                            <ul>
-                                <li>HD: B</li>
-                                <li>ED: 0</li>
-                                <li>Ögonlysning (Juli 2024): UA</li>
-                                <li>Degenerative Myelopathy: Clear</li>
-                                <li>Exercise-Induced Collapse: Clear</li>
-                                <li>Progressive Retinal Atrophy: Clear</li>
-                                <li>Von Willebrand Disease I: Clear</li>
-                                <li>Genotyp: F/F</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-            
-                <!-- Tikar -->
-                <section class="container mt-5">
-                    <h1 class="text-center mb-5">Tikar</h1>
-            
-                    <!-- Judith -->
-                <div class="row">
-                    <div class="col m-1 card mb-4">
-                        <div class="card-body">
-                            <h2 class="card-title">Allegretto's Judith (Juli)</h2>
-                            <img style="height:200px;" src="assets/images/dogsCarousel/dog2.jpg">
+    <!-- Hanar -->
+    <section class="container mt-5">
+        <h1 class="text-center mb-5">Hanar</h1>
 
-                            <p class="text-muted">Född: 2 maj 2023 | Färg: Cream caramel | Reg.nr: WALA00096616 | Vikt: 26 kg</p>
-                            <p>
-                                hund
-                                Allegretto's Judith (Juli)
-                                Lilla Juli såldes först till en familj i närheten av Oskarshamn. Efter fyra veckor behövde familjen återlämna henne och vi fick då möjligheten att behålla henne hos oss inom Allegretto's! Hon kommer bo hos Allegretto's Gredelin (Nella)s familj utanför Gävle, men vi har en god kontakt med den familjen och vi ska se till att träffas när möjlighet finns. Känner mig lyckligt lottad som hittat ett så fint hem till två Allegretto-tjejer! Hon har en sammetslen lockig fleecepäls och en helt underbar personlighet. Jag kommer följa henne och hennes kullsyster Aslög (Suuki), för att se vem av systrarna som lämpar sig bäst för avel i framtiden. Juli väger 26 kg.</p>
-            
-                            <h5>Föräldrar</h5>
-                            <ul>
-                                <li>Mor: Allegretto’s Finesse</li>
-                                <li>Far: Humlamadens Limerick</li>
-                            </ul>
-            
-                            <h5>Tester och Resultat</h5>
-                            <ul>
-                                <li>HD: (Kommer)</li>
-                                <li>ED: (Kommer)</li>
-                                <li>Ögonlysning: (Kommer)</li>
-                                <li>Degenerative Myelopathy: Clear</li>
-                                <li>Exercise-Induced Collapse: Clear</li>
-                                <li>Progressive Retinal Atrophy: Clear</li>
-                                <li>Genotyp: F/F Cu/CuC</li>
-                            </ul>
-                        </div>
-                    </div>
-            
-                    <!-- Aslög Card -->
-                    <div class="col m-1 card mb-4">
-                        <div class="card-body">
-                            <h2 class="card-title">Allegretto’s Aslög (Suuki)</h2>
-                            <img style="height:200px;" src="assets/images/dogsCarousel/dog3.jpg">
+        <!-- Alfons -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2 class="card-title">Brummas Blåklint (Alfons)</h2>
+                <img style="height:200px; max-width: 100%;" src="assets/images/dogsCarousel/dog1.jpg">
+                <p class="text-muted">Född: 19 maj 2023 | Färg: Brun abstrakt | Vikt: 15 kg</p>
+                <p>Jag fick möjligheten att göra ett byte! En av mina tikar mot en av Brummas labradoodles hanar, kunde
+                    jag motstå detta? Såklart inte! Lilla Alfons bor nu hos en fodervärdsfamilj i Oskarshamn och vi
+                    kommer följa hans utveckling på nära håll. Hans husse är nämligen jobbarkompis med min mamma, helt
+                    perfekt! Alfons förväntas bli av medium storlek och väger 15 kg. Vi ser fram emot att han ska få bli
+                    pappa till valparna hos oss på Allegretto's.
 
-                            <p class="text-muted">Född: 2 maj 2023 | Färg: Röd karamell | Reg.nr: WALA00096615 | Vikt: 21 kg</p>
-                            <p>Hon kommer bo hos en familj i Oskarshamn och förhoppningsvis kommer vi träffas ofta. Hon har en sammetslen lockig fleecepäls och en helt underbar personlighet. Vi kommer följa henne med spänning och hoppas att hon får möjlighet att bli mamma hos oss framöver. Suuki väger 21 kg</p>
-            
-                            <h5>Föräldrar</h5>
-                            <ul>
-                                <li>Mor: Allegretto’s Finesse</li>
-                                <li>Far: Humlamadens Limerick</li>
-                            </ul>
-            
-                            <h5>Tester och Resultat</h5>
-                            <ul>
-                                <li>HD: (Kommer)</li>
-                                <li>ED: (Kommer)</li>
-                                <li>Degenerative Myelopathy: Clear</li>
-                                <li>Exercise-Induced Collapse: Clear</li>
-                                <li>Progressive Retinal Atrophy: Clear</li>
-                                <li>Genotyp: F/IC CU/CU</li>
-                            </ul>
-                        </div>
-                    </div>
+                    Mamma Nina är skolhund till vardags och pappa Milton är under utbildning till vårdhund. Vi har
+                    därför höga förväntningar på Alfons mentalitet. Pälsen är öppen, lockig och fällfri (fleece).</p>
+
+                <h5>Föräldrar</h5>
+                <ul>
+                    <li>Mor: Brummas Pralin (Nina)</li>
+                    <li>Far: Oxiekullars Rex (Milton)</li>
+                </ul>
+
+                <h5>Tester och Resultat</h5>
+                <ul>
+                    <li>HD: B</li>
+                    <li>ED: 0</li>
+                    <li>Ögonlysning (Juli 2024): UA</li>
+                    <li>Degenerative Myelopathy: Clear</li>
+                    <li>Exercise-Induced Collapse: Clear</li>
+                    <li>Progressive Retinal Atrophy: Clear</li>
+                    <li>Von Willebrand Disease I: Clear</li>
+                    <li>Genotyp: F/F</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tikar -->
+    <section class="container mt-5">
+        <h1 class="text-center mb-5">Tikar</h1>
+
+        <!-- Judith -->
+        <div class="row">
+            <div class="col card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Allegretto's Judith (Juli)</h2>
+                    <img style="height:200px;" src="assets/images/dogsCarousel/dog2.jpg">
+
+                    <p class="text-muted">Född: 2 maj 2023 | Färg: Cream caramel | Reg.nr: WALA00096616 | Vikt: 26 kg
+                    </p>
+                    <p>
+                        hund
+                        Allegretto's Judith (Juli)
+                        Lilla Juli såldes först till en familj i närheten av Oskarshamn. Efter fyra veckor behövde
+                        familjen återlämna henne och vi fick då möjligheten att behålla henne hos oss inom Allegretto's!
+                        Hon kommer bo hos Allegretto's Gredelin (Nella)s familj utanför Gävle, men vi har en god kontakt
+                        med den familjen och vi ska se till att träffas när möjlighet finns. Känner mig lyckligt lottad
+                        som hittat ett så fint hem till två Allegretto-tjejer! Hon har en sammetslen lockig fleecepäls
+                        och en helt underbar personlighet. Jag kommer följa henne och hennes kullsyster Aslög (Suuki),
+                        för att se vem av systrarna som lämpar sig bäst för avel i framtiden. Juli väger 26 kg.</p>
+
+                    <h5>Föräldrar</h5>
+                    <ul>
+                        <li>Mor: Allegretto’s Finesse</li>
+                        <li>Far: Humlamadens Limerick</li>
+                    </ul>
+
+                    <h5>Tester och Resultat</h5>
+                    <ul>
+                        <li>HD: (Kommer)</li>
+                        <li>ED: (Kommer)</li>
+                        <li>Ögonlysning: (Kommer)</li>
+                        <li>Degenerative Myelopathy: Clear</li>
+                        <li>Exercise-Induced Collapse: Clear</li>
+                        <li>Progressive Retinal Atrophy: Clear</li>
+                        <li>Genotyp: F/F Cu/CuC</li>
+                    </ul>
                 </div>
-            
+            </div>
+
+            <!-- Aslög Card -->
+            <div class="col card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Allegretto’s Aslög (Suuki)</h2>
+                    <img style="height:200px;" src="assets/images/dogsCarousel/dog3.jpg">
+
+                    <p class="text-muted">Född: 2 maj 2023 | Färg: Röd karamell | Reg.nr: WALA00096615 | Vikt: 21 kg</p>
+                    <p>Hon kommer bo hos en familj i Oskarshamn och förhoppningsvis kommer vi träffas ofta. Hon har en
+                        sammetslen lockig fleecepäls och en helt underbar personlighet. Vi kommer följa henne med
+                        spänning och hoppas att hon får möjlighet att bli mamma hos oss framöver. Suuki väger 21 kg</p>
+
+                    <h5>Föräldrar</h5>
+                    <ul>
+                        <li>Mor: Allegretto’s Finesse</li>
+                        <li>Far: Humlamadens Limerick</li>
+                    </ul>
+
+                    <h5>Tester och Resultat</h5>
+                    <ul>
+                        <li>HD: (Kommer)</li>
+                        <li>ED: (Kommer)</li>
+                        <li>Degenerative Myelopathy: Clear</li>
+                        <li>Exercise-Induced Collapse: Clear</li>
+                        <li>Progressive Retinal Atrophy: Clear</li>
+                        <li>Genotyp: F/IC CU/CU</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
             <!-- Allegretto's Gredelin (Nella) -->
-    <div class="card mb-4">
-        <div class="card-body">
-            <h2 class="card-title">Allegretto's Gredelin (Nella)</h2>
-            <img style="height:200px;" src="assets/images/dogsCarousel/dog4.jpg">
+            <div class="col card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Allegretto's Gredelin (Nella)</h2>
+                    <img style="height:200px;" src="assets/images/dogsCarousel/dog4.jpg">
 
-            <p class="text-muted">Född: 9 augusti 2022 | Reg.nr: WALA00083680 | Vikt: 18 kg</p>
-            <p>Nella kom till oss i augusti 2022 tillsammans med 10 helt ljuvliga syskon. Hon har en mjuk och lockig fleecepäls och den goaste personligheten. Hon bor ganska många mil från oss på Allegretto's men vi håller tät kontakt med hennes bästa matte och husse. Vi hoppas att hon ska få bli en del av vårt avelsprogram framöver. Nella väger 18 kg.</p>
+                    <p class="text-muted">Född: 9 augusti 2022 | Reg.nr: WALA00083680 | Vikt: 18 kg</p>
+                    <p>Nella kom till oss i augusti 2022 tillsammans med 10 helt ljuvliga syskon. Hon har en mjuk och
+                        lockig fleecepäls och den goaste personligheten. Hon bor ganska många mil från oss på
+                        Allegretto's men vi håller tät kontakt med hennes bästa matte och husse. Vi hoppas att hon ska
+                        få bli en del av vårt avelsprogram framöver. Nella väger 18 kg.</p>
 
-            <h5>Föräldrar</h5>
-            <ul>
-                <li>Mor: Allegretto's Doris</li>
-                <li>Far: Manor Lake Rocky Road at Brummas</li>
-            </ul>
+                    <h5>Föräldrar</h5>
+                    <ul>
+                        <li>Mor: Allegretto's Doris</li>
+                        <li>Far: Manor Lake Rocky Road at Brummas</li>
+                    </ul>
 
-            <h5>Tester och Resultat</h5>
-            <ul>
-                <li>HD: (Kommer)</li>
-                <li>ED: (Kommer)</li>
-                <li>Degenerative Myelopathy: Clear</li>
-                <li>Exercise-Induced Collapse: Carrier</li>
-                <li>Progressive Retinal Atrophy: Clear</li>
-                <li>Von Willebrand Disease I: Clear</li>
-                <li>Genotyp: F/F</li>
-            </ul>
+                    <h5>Tester och Resultat</h5>
+                    <ul>
+                        <li>HD: (Kommer)</li>
+                        <li>ED: (Kommer)</li>
+                        <li>Degenerative Myelopathy: Clear</li>
+                        <li>Exercise-Induced Collapse: Carrier</li>
+                        <li>Progressive Retinal Atrophy: Clear</li>
+                        <li>Von Willebrand Disease I: Clear</li>
+                        <li>Genotyp: F/F</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Allegretto's Frigg (Milla) -->
+            <div class="col card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Allegretto's Frigg (Milla)</h2>
+                    <img style="height:200px;" src="assets/images/dogsCarousel/dog1.jpg">
+
+                    <p class="text-muted">Född: 2 januari 2022 | Vikt: 22 kg</p>
+                    <p>Milla bor hos fodervärd tjugo minuter utanför Oskarshamn. Hon har en otroligt mjuk och fin
+                        ullpäls, varma ögon och en social mentalitet som älskar att få sitta i knät. Vi ser väldigt
+                        mycket fram emot att få följa hennes valpar. De kan helt enkelt inte bli annat än magiska! I
+                        personlighet är Milla väldigt lik sin mamma Nessa. Lojal, följsam och otroligt kelig. Framåt och
+                        nyfiken. Milla väger 22 kg.</p>
+
+                    <h5>Föräldrar</h5>
+                    <ul>
+                        <li>Mor: Allegretto's Finesse (Nessa)</li>
+                        <li>Far: Höjdpunktens Smaragd (Zola)</li>
+                    </ul>
+
+                    <h5>Tester och Resultat</h5>
+                    <ul>
+                        <li>HD: A</li>
+                        <li>ED: 0</li>
+                        <li>Ögonlysning (Juli 2024): UA</li>
+                        <li>Degenerative Myelopathy: Clear</li>
+                        <li>Exercise-Induced Collapse: Clear</li>
+                        <li>Progressive Retinal Atrophy: Clear</li>
+                        <li>Von Willebrand Disease I: Clear</li>
+                        <li>Genotyp: F/F</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
+        <div class="row">
 
-    <!-- Allegretto's Frigg (Milla) -->
-    <div class="card mb-4">
-        <div class="card-body">
-            <h2 class="card-title">Allegretto's Frigg (Milla)</h2>
-            <img style="height:200px;" src="assets/images/dogsCarousel/dog1.jpg">
+            <!-- Allegretto's Doris -->
+            <div class="col card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Allegretto's Doris</h2>
+                    <img style="height:200px;" src="assets/images/dogsCarousel/dog2.jpg">
 
-            <p class="text-muted">Född: 2 januari 2022 | Vikt: 22 kg</p>
-            <p>Milla bor hos fodervärd tjugo minuter utanför Oskarshamn. Hon har en otroligt mjuk och fin ullpäls, varma ögon och en social mentalitet som älskar att få sitta i knät. Vi ser väldigt mycket fram emot att få följa hennes valpar. De kan helt enkelt inte bli annat än magiska! I personlighet är Milla väldigt lik sin mamma Nessa. Lojal, följsam och otroligt kelig. Framåt och nyfiken. Milla väger 22 kg.</p>
+                    <p class="text-muted">Född: 12 juli 2020 | Reg.nr: WALA00052239 | Vikt: 25 kg</p>
+                    <p>Doris vårt lilla bustroll som kom näst sist ut kullen 2020. Doris bor hos min mamma och vi
+                        träffas väldigt ofta. Doris fick sin första kull i augusti 2022. Då föddes 11 helt fantastisk
+                        valpar som ni kan läsa om på sidan Tidigare kullar. Hon var helt otrolig som mamma och trivdes
+                        verkligen med den rollen. Av den anledningen ser vi fram emot att få se henne i den rollen igen.
+                        Mentaliteten hos Doris är en stor knähund, som älskar att få sitta och mysa i knät i soffan.
+                        Sitter gärna nära. Hon älskar barn, stora som små. Faktum är att Doris älskar alla människor och
+                        alla djur. Doris har mycket energi och är väldigt framåt. Social och följsam. Doris väger 25 kg.
+                    </p>
 
-            <h5>Föräldrar</h5>
-            <ul>
-                <li>Mor: Allegretto's Finesse (Nessa)</li>
-                <li>Far: Höjdpunktens Smaragd (Zola)</li>
-            </ul>
+                    <h5>Föräldrar</h5>
+                    <ul>
+                        <li>Mor: Labbeskogens Silje</li>
+                        <li>Far: Foster’s Celebration Sirius</li>
+                    </ul>
 
-            <h5>Tester och Resultat</h5>
-            <ul>
-                <li>HD: A</li>
-                <li>ED: 0</li>
-                <li>Ögonlysning (Juli 2024): UA</li>
-                <li>Degenerative Myelopathy: Clear</li>
-                <li>Exercise-Induced Collapse: Clear</li>
-                <li>Progressive Retinal Atrophy: Clear</li>
-                <li>Von Willebrand Disease I: Clear</li>
-                <li>Genotyp: F/F</li>
-            </ul>
+                    <h5>Tester och Resultat</h5>
+                    <ul>
+                        <li>HD: B</li>
+                        <li>ED: 0</li>
+                        <li>Ögonlysning (Februari 2024): UA</li>
+                        <li>Degenerative Myelopathy: Clear</li>
+                        <li>Exercise-Induced Collapse: Carrier</li>
+                        <li>Progressive Retinal Atrophy: Clear</li>
+                        <li>Von Willebrand Disease I: Clear</li>
+                        <li>Färg: BbEe</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Allegretto's Kajsa (Dixie) -->
+            <div class="col card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Allegretto's Kajsa (Dixie)</h2>
+                    <img style="height:200px;" src="assets/images/dogsCarousel/dog3.jpg">
+
+                    <p class="text-muted">Född: 12 juli 2020 | Reg.nr: WALA00052240 | Vikt: 28 kg</p>
+                    <p>Dixie, eller Kajsa som hon hette hos oss, har växt upp i en familj med en nyfödd bebis som Dixie
+                        sett efter varenda sekund sen han föddes. Enligt matte och husse är de världens bästa kompisar
+                        och de hade aldrig kunnat önska sig en bättre familjehund. Hon är följsam, otroligt snäll och
+                        tillgiven. Dixie väger runt 28 kg och var först ut i kullen från juli 2020.</p>
+
+                    <h5>Föräldrar</h5>
+                    <ul>
+                        <li>Mor: Labbeskogens Silje</li>
+                        <li>Far: Foster’s Celebration Sirius</li>
+                    </ul>
+
+                    <h5>Tester och Resultat</h5>
+                    <ul>
+                        <li>HD: A</li>
+                        <li>ED: 0</li>
+                        <li>Ögonlysning (Nov 2023): UA</li>
+                        <li>Degenerative Myelopathy: Clear</li>
+                        <li>Exercise-Induced Collapse: Carrier</li>
+                        <li>Progressive Retinal Atrophy: Clear</li>
+                        <li>Färg: BbEe</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
+        <!-- Allegretto's Finesse (Nessa) -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2 class="card-title">Allegretto's Finesse (Nessa)</h2>
+                <img style="height:200px;" src="assets/images/dogsCarousel/dog4.jpg">
 
-    <!-- Allegretto's Doris -->
-    <div class="card mb-4">
-        <div class="card-body">
-            <h2 class="card-title">Allegretto's Doris</h2>
-            <img style="height:200px;" src="assets/images/dogsCarousel/dog2.jpg">
+                <p class="text-muted">Pensionerad | Har fött 21 valpar i sina två kullar</p>
+                <p>Pensionerad. Nessa har fött 21 valpar på sina två kullar, år 2022 och 2023. Hon är nu kastrerad och
+                    pensionerad från aveln och njuter av livet som pensionär.</p>
 
-            <p class="text-muted">Född: 12 juli 2020 | Reg.nr: WALA00052239 | Vikt: 25 kg</p>
-            <p>Doris vårt lilla bustroll som kom näst sist ut kullen 2020. Doris bor hos min mamma och vi träffas väldigt ofta. Doris fick sin första kull i augusti 2022. Då föddes 11 helt fantastisk valpar som ni kan läsa om på sidan Tidigare kullar. Hon var helt otrolig som mamma och trivdes verkligen med den rollen. Av den anledningen ser vi fram emot att få se henne i den rollen igen. Mentaliteten hos Doris är en stor knähund, som älskar att få sitta och mysa i knät i soffan. Sitter gärna nära. Hon älskar barn, stora som små. Faktum är att Doris älskar alla människor och alla djur. Doris har mycket energi och är väldigt framåt. Social och följsam. Doris väger 25 kg.</p>
-
-            <h5>Föräldrar</h5>
-            <ul>
-                <li>Mor: Labbeskogens Silje</li>
-                <li>Far: Foster’s Celebration Sirius</li>
-            </ul>
-
-            <h5>Tester och Resultat</h5>
-            <ul>
-                <li>HD: B</li>
-                <li>ED: 0</li>
-                <li>Ögonlysning (Februari 2024): UA</li>
-                <li>Degenerative Myelopathy: Clear</li>
-                <li>Exercise-Induced Collapse: Carrier</li>
-                <li>Progressive Retinal Atrophy: Clear</li>
-                <li>Von Willebrand Disease I: Clear</li>
-                <li>Färg: BbEe</li>
-            </ul>
+                <h5>Tester och Resultat</h5>
+                <ul>
+                    <li>Canine Genetic Health Certificate</li>
+                    <li>Ögonundersökning</li>
+                </ul>
+            </div>
         </div>
-    </div>
-
-    <!-- Allegretto's Kajsa (Dixie) -->
-    <div class="card mb-4">
-        <div class="card-body">
-            <h2 class="card-title">Allegretto's Kajsa (Dixie)</h2>
-            <img style="height:200px;" src="assets/images/dogsCarousel/dog3.jpg">
-
-            <p class="text-muted">Född: 12 juli 2020 | Reg.nr: WALA00052240 | Vikt: 28 kg</p>
-            <p>Dixie, eller Kajsa som hon hette hos oss, har växt upp i en familj med en nyfödd bebis som Dixie sett efter varenda sekund sen han föddes. Enligt matte och husse är de världens bästa kompisar och de hade aldrig kunnat önska sig en bättre familjehund. Hon är följsam, otroligt snäll och tillgiven. Dixie väger runt 28 kg och var först ut i kullen från juli 2020.</p>
-
-            <h5>Föräldrar</h5>
-            <ul>
-                <li>Mor: Labbeskogens Silje</li>
-                <li>Far: Foster’s Celebration Sirius</li>
-            </ul>
-
-            <h5>Tester och Resultat</h5>
-            <ul>
-                <li>HD: A</li>
-                <li>ED: 0</li>
-                <li>Ögonlysning (Nov 2023): UA</li>
-                <li>Degenerative Myelopathy: Clear</li>
-                <li>Exercise-Induced Collapse: Carrier</li>
-                <li>Progressive Retinal Atrophy: Clear</li>
-                <li>Färg: BbEe</li>
-            </ul>
-        </div>
-    </div>
-
-    <!-- Allegretto's Finesse (Nessa) -->
-    <div class="card mb-4">
-        <div class="card-body">
-            <h2 class="card-title">Allegretto's Finesse (Nessa)</h2>
-            <img style="height:200px;" src="assets/images/dogsCarousel/dog4.jpg">
-
-            <p class="text-muted">Pensionerad | Har fött 21 valpar i sina två kullar</p>
-            <p>Pensionerad. Nessa har fött 21 valpar på sina två kullar, år 2022 och 2023. Hon är nu kastrerad och pensionerad från aveln och njuter av livet som pensionär.</p>
-
-            <h5>Tester och Resultat</h5>
-            <ul>
-                <li>Canine Genetic Health Certificate</li>
-                <li>Ögonundersökning</li>
-            </ul>
-        </div>
-    </div>
-                </section>
-            
-            
-
+    </section>
                 <footer>
                     <div class="footer-container">
                       <div class="contact-info">
@@ -370,25 +410,11 @@
                   </div>
       
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous">
-    
-    </script>
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-    fetch('/header-nav.html')
-        .then(response => response.text())
-        .then(html => {
-            document.getElementById('header-container').innerHTML = html;
-        })
-        .catch(error => {
-            console.error('Error loading header-nav.html:', error);
-        });
-});
-    </script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+        <script src="script.js"></script>
 </body>
 
 </html>
-

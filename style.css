@@ -23,12 +23,18 @@ a {
     margin: 0 auto;
   }
 
-
+img{
+  max-width: 100%;
+}
 
 /* Mobile devices (phones, up to 767px) */
 @media only screen and (max-width: 767px) {
   .logo {
     display: none;
+  }
+  .row {
+    flex-direction: column;
+
   }
 }
 
@@ -135,6 +141,17 @@ footer {
   .social-media-footer {
     align-items: center; 
   }
+
+  
+  .newsletter-signup button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
 }
 
 .copyright {
@@ -144,3 +161,4 @@ footer {
   width: 100%;
   background-color: whitesmoke;
 }
+
