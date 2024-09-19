@@ -50,56 +50,97 @@ a {
   }
 }
 
-
-
-
 /*footer*/
 
-  footer {
-    background-color: #ffff;
-    padding: 40px;
-  }
-  
+footer {
+  background-color: whitesmoke;
+  padding: 2.5rem; 
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+  gap: 1.25rem; 
+  width: 100%;
+}
+
+.contact-info {
+  flex: 1; 
+  text-align: left;
+}
+
+.newsletter-signup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ 
+  border-radius: 0.5rem; 
+}
+
+.newsletter-signup input {
+  padding: 0.625rem; 
+  margin-bottom: 0.625rem;
+  border-radius: 0.3125rem; 
+  border: 0.063rem solid #ddd; 
+  max-width: 100%;
+}
+
+.newsletter-signup button {
+  padding: 0.75rem; 
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.3125rem;
+}
+
+.social-media-footer {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.social-center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;  
+}
+
+.social-media-footer img {
+  width: 2.2rem; 
+  height: 2.2rem;
+  margin: 0.313rem 0; 
+}
+
+@media (max-width: 48rem) { 
   .footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap; 
-  }
-  
-  
-  .social-media-footer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  
-  
-  .social-media-footer img {
-    width: 24px;
-    height: 24px;
-  }
-  
-  .newsletter-signup {
+    flex-direction: column; 
+    align-items: center; 
     text-align: center;
   }
-  
-  .newsletter-signup form {
-    margin-bottom: 10px;
+
+  .contact-info,
+  .newsletter-signup,
+  .social-media-footer {
+    flex: unset; 
+    width: 100%; 
+    margin-bottom: 1.25rem; 
   }
-  
-  .newsletter-signup input {
-    padding: 10px;
-    margin-right: 5px;
-    border-radius: 5px;
+
+  .social-media-footer {
+    align-items: center; 
   }
-  
-  .newsletter-signup button {
-    padding: 12px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: whitesmoke;
+}
