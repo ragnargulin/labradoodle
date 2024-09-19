@@ -26,7 +26,7 @@ Bilda en grupp med 2 personer. Ni ska tillsammans välja en hemsida som ni vill 
 
 **Godkänt (G):**
 - [ ] Hemsidan ska innehålla logotyp, navigering, semantisk korrekt HTML och sidfot.
-- [ ] Menyn ska innehålla korrekt utformade länkar som leder till respektive sida (2-4 sidor).
+- [x] Menyn ska innehålla korrekt utformade länkar som leder till respektive sida (2-4 sidor).
 - [ ] Hemsidan ska vara responsiv och anpassad efter olika skärmstorlekar, med minst en breakpoint (till exempel Mobil – Dator).
 - [ ] Dynamisk funktionalitet ska finnas, med hjälp av JavaScript, CSS Animationer eller CSS Transitions.
 - [ ] Hemsidan ska vara tillgänglig och testad på minst ett sätt (till exempel automatiska verktyg, användartestning eller manuellt test).
@@ -36,7 +36,8 @@ Bilda en grupp med 2 personer. Ni ska tillsammans välja en hemsida som ni vill 
 **Väl Godkänt (VG):**
 - [ ] Uppfyll alla krav för G.
 - [ ] Hemsidan ska vara responsiv med minst två breakpoints (till exempel Mobil – Padda – Dator).
-- [ ] Hemsidan ska ha en fungerande mobil- och desktopmeny, med två olika menyer för olika enheter.
+- [x] Hemsidan ska ha en fungerande mobil- och desktopmeny, med två olika menyer för olika enheter.
+navbar för desktop, hamburger för mobile
 - [ ] Dynamisk funktionalitet ska finnas med hjälp av JavaScript, CSS Animationer eller CSS Transitions (minst tre funktionaliteter).
 - [ ] Använd tekniken SCSS/Sass för styling under projektets gång.
 - [ ] Hemsidan ska vara testad på minst två sätt (till exempel automatiska verktyg, användartestning eller manuellt test).
