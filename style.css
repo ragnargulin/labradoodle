@@ -23,12 +23,18 @@ a {
     margin: 0 auto;
   }
 
-
+img{
+  max-width: 100%;
+}
 
 /* Mobile devices (phones, up to 767px) */
 @media only screen and (max-width: 767px) {
   .logo {
     display: none;
+  }
+  .row {
+    flex-direction: column;
+
   }
 }
 
@@ -102,3 +108,4 @@ a {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+  }
