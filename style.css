@@ -36,16 +36,23 @@ img{
     flex-direction: column;
 
   }
+
+  nav svg {
+    display: none;
+  }
 }
 
-/* Tablet devices (iPad, 768px to 991px) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+/* Tablet devices (iPad, 768px to 1000px) */
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   .bone {
     display: none;
   }
   .row {
     flex-direction: column;
 
+  }
+  nav svg {
+    display: none;
   }
 }
 
