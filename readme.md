@@ -28,7 +28,7 @@ Bilda en grupp med 2 personer. Ni ska tillsammans välja en hemsida som ni vill 
 - [x] Hemsidan ska innehålla logotyp, navigering, semantisk korrekt HTML och sidfot.
 - [x] Menyn ska innehålla korrekt utformade länkar som leder till respektive sida (2-4 sidor).
 - [x] Hemsidan ska vara responsiv och anpassad efter olika skärmstorlekar, med minst en breakpoint (till exempel Mobil – Dator).
-- [ ] Dynamisk funktionalitet ska finnas, med hjälp av JavaScript, CSS Animationer eller CSS Transitions.
+- [x] Dynamisk funktionalitet ska finnas, med hjälp av JavaScript, CSS Animationer eller CSS Transitions.
 Bark-funktion när man klickar på hunden
 - [ ] Hemsidan ska vara tillgänglig och testad på minst ett sätt (till exempel automatiska verktyg, användartestning eller manuellt test). Berätta mer om detta under redovisningen.
 - [x] Ni ska arbeta med GitHub under hela projektets gång, och historik ska finnas tillgänglig.
@@ -38,7 +38,7 @@ Bark-funktion när man klickar på hunden
 - [x] Hemsidan ska vara responsiv med minst två breakpoints (till exempel Mobil – Padda – Dator).
 - [x] Hemsidan ska ha en fungerande mobil- och desktopmeny, med två olika menyer för olika enheter.
 navbar för desktop, hamburger för mobile
-- [ ] Dynamisk funktionalitet ska finnas med hjälp av JavaScript, CSS Animationer eller CSS Transitions (minst tre funktionaliteter).
+- [x] Dynamisk funktionalitet ska finnas med hjälp av JavaScript, CSS Animationer eller CSS Transitions (minst tre funktionaliteter).
 - [ ] Använd tekniken SCSS/Sass för styling under projektets gång.
 - [ ] Hemsidan ska vara testad på minst två sätt (till exempel automatiska verktyg, användartestning eller manuellt test). Beskriv mer utförligt om detta under redovisningen.
 - [x] Arbeta självständigt (inom gruppen) under hela projektets gång och visa att ni kan hantera problemlösning och ta egna beslut.
