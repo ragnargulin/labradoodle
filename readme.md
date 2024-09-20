@@ -41,4 +41,4 @@ navbar för desktop, hamburger för mobile
 - [ ] Dynamisk funktionalitet ska finnas med hjälp av JavaScript, CSS Animationer eller CSS Transitions (minst tre funktionaliteter).
 - [ ] Använd tekniken SCSS/Sass för styling under projektets gång.
 - [ ] Hemsidan ska vara testad på minst två sätt (till exempel automatiska verktyg, användartestning eller manuellt test). Beskriv mer utförligt om detta under redovisningen.
-- [ ] Arbeta självständigt (inom gruppen) under hela projektets gång och visa att ni kan hantera problemlösning och ta egna beslut.
+- [x] Arbeta självständigt (inom gruppen) under hela projektets gång och visa att ni kan hantera problemlösning och ta egna beslut.
