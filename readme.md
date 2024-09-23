@@ -1,18 +1,25 @@
-**Inlämningsuppgift 2 (Gruppuppgift)**
+**Inlämningsuppgift 2 frågor att besvara**
 
-Bilda en grupp med 2 personer. Ni ska tillsammans välja en hemsida som ni vill förbättra med hjälp av HTML och CSS. Målet är att hemsidan ska bli mer tillgänglig och få en mer användarvänlig design än tidigare. Hemsidan ska innehålla 2-4 sidor och vara responsiv. Hemsidan ska även ha någon dynamisk funktionalitet som förbättrar användarupplevelsen.
+- Hur många breakpoints använder ni och för vilka enheter/skärmar?
+Två breakpoints / tre olika enheter. Mobil, padda och dator. Våra breakpoint definieras som spektrum, snarare än max ELLER min. Detta gjorde det enklare att styra styling för plattan, som annars hamnar i kläm. 
 
-- Bilder kan sparas ner och användas i skoluppgiften och endast i skoluppgiften.
-- Ta print screens på hemsidan (för att säkerställa om den uppdateras under uppgiften). Ta print screens i alla enheter som ni väljer att använda, till exempel Mobil, Padda, Dator.
-- Arbeta tillsammans och bestäm vad som behöver göras, skapa mindre uppgifter och fördela dem så ni arbetar med olika saker. Detta underlättar arbetet i GitHub.
-  - Tips: Skapa en ny branch för varje uppgift och merga in den i huvudkoden när den är helt klar!
-- Använd ramverk vid behov om ni vill (ej krav).
-- Endast de filer ni arbetar med och använder i projektet ska finnas i repot på GitHub. Repot ska vara rent och klart innan inlämning.
-  - Filer som inte används eller tillhör projektet ska inte finnas i repot.
-- Ni får inte använda någon hemsida som har använts i Inlämningsuppgift 1. Inte heller en hemsida från en offentlig aktör (kommun, myndighet, skola, osv).
-  
-**Redovisning:**  
-- På plats i skolan: Tisdag 24 september 09:00–16:00
+- Beskriv några typer av dynamisk funktionalitet som ni använder och vart de används (till exempel JavaScript, CSS Animationer eller CSS Transitions).
+Vi använder bland annat en hover-funktion för menyn som skapar en organisk cirkel runt meny-element. 
+Vi har även en js-funktion som körs om man klickar på hunden i headern. 
+Under "om oss" har vi även en dropdown-knapp med text.
+
+- Använder ni något ramverk? Om ja, var?
+Ja, vi har använt Bootstrap som grund för hemsidan. Bland annat följer vår navbar och bild-karusell Bootstraps egna klasser.
+
+- Hur har ni testat tillgängligheten och på hur många olika sätt? (till exempel automatiska verktyg, användartestning eller manuellt test)
+Vi har bla. Testat med Wave, där vi fick bra resultat förutom en kontakt-knapp som ansågs ha för låg kontrast. Vi misstänker att detta är någon bugg, för andra knappar med samma färgkontrast blev godkända.
+Vi har även testat att navigera hemsidan med enbart tangentbord. Slutligen har vi manuellt försökt se till att det finns alt-attribut och aria labels där det behövs
+
+- Har ni använt Sass under projektetes gång? I vilken utsträckning?
+Ja! Vi använde en hover-styling vi hittade på codepen som använde sass. Det gav oss en grund att utgå från. Vi har sedan modifierat sass-filen och sett hur compilern översätter till css. I övrigt har vi fått mycket styling från Bootstrap och bara behövt göra mindre ändringar med css. Vi har gjort någon slags hybridlösning. 
+
+
+
 
 **Inlämning:**
 - Deadline: Måndag 23 september 17:00
@@ -30,15 +37,17 @@ Bilda en grupp med 2 personer. Ni ska tillsammans välja en hemsida som ni vill 
 - [x] Hemsidan ska vara responsiv och anpassad efter olika skärmstorlekar, med minst en breakpoint (till exempel Mobil – Dator).
 - [x] Dynamisk funktionalitet ska finnas, med hjälp av JavaScript, CSS Animationer eller CSS Transitions.
 Bark-funktion när man klickar på hunden
-- [ ] Hemsidan ska vara tillgänglig och testad på minst ett sätt (till exempel automatiska verktyg, användartestning eller manuellt test). Berätta mer om detta under redovisningen.
+- [x] Hemsidan ska vara tillgänglig och testad på minst ett sätt (till exempel automatiska verktyg, användartestning eller manuellt test). Berätta mer om detta under redovisningen.
 - [x] Ni ska arbeta med GitHub under hela projektets gång, och historik ska finnas tillgänglig.
 
 **Väl Godkänt (VG):**
-- [ ] Uppfyll alla krav för G.
+- [x] Uppfyll alla krav för G.
 - [x] Hemsidan ska vara responsiv med minst två breakpoints (till exempel Mobil – Padda – Dator).
 - [x] Hemsidan ska ha en fungerande mobil- och desktopmeny, med två olika menyer för olika enheter.
 navbar för desktop, hamburger för mobile
 - [x] Dynamisk funktionalitet ska finnas med hjälp av JavaScript, CSS Animationer eller CSS Transitions (minst tre funktionaliteter).
-- [ ] Använd tekniken SCSS/Sass för styling under projektets gång.
-- [ ] Hemsidan ska vara testad på minst två sätt (till exempel automatiska verktyg, användartestning eller manuellt test). Beskriv mer utförligt om detta under redovisningen.
+- [x] Använd tekniken SCSS/Sass för styling under projektets gång.
+- [x] Hemsidan ska vara testad på minst två sätt (till exempel automatiska verktyg, användartestning eller manuellt test). Beskriv mer utförligt om detta under redovisningen.
+Manuellt: sidan kan navigeras med tangntbord
+Wave: MÅNDAG
 - [x] Arbeta självständigt (inom gruppen) under hela projektets gång och visa att ni kan hantera problemlösning och ta egna beslut.

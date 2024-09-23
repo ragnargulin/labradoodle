@@ -1,20 +1,12 @@
 <!DOCTYPE html>
 <html lang="sv">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Labradoodle Sweden</title>
-   <link rel="stylesheet" href="style.css">
-   <link href="styleHover.css" rel="stylesheet">
-
-   <style>
-    
-   </style>
-</head>
-
-<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labradoodle Sweden</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="styleHover.css" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Labradoodle</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -26,206 +18,226 @@
 
 <body>
     <header>
-            <div class="d-flex justify-content-between align-items-center" style="height: 100px; background-color: lightblue;">
-                <div class="p-3 logo"><img src="assets/icons/logo.svg" alt="algrettos labradoodle" style="width: 60%;"></div>
-                <div class="p-3 bone" onclick="bork()"><img src="assets/icons/dog.svg" alt="Hund som skäller" style="height: 110px;"></div>
-              </div>
+        <div class="d-flex justify-content-between align-items-center"
+            style="height: 100px; background-color: lightblue;">
+            <div class="p-3 logo"><img src="assets/icons/logo.svg" alt="algrettos labradoodle" style="width: 60%;">
+            </div>
+            <div class="p-3 bone" onclick="bork()"><img src="assets/icons/dog.svg" alt="Hund som skäller"
+                    style="height: 110px;"></div>
+        </div>
     </header>
     <nav class="navbar sticky-top navbar-light bg-light bg-body-tertiary navbar-expand-xl">
-      <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                      <p>
-                          <a class="nav-link active" aria-current="page" href="index.html">
-                              Startsida
-                              <svg viewBox="0 0 70 36">
-                                  <path
-                                      d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
-                              </svg>
-                          </a>
-                      </p>
-                  </li>
-                  <li class="nav-item">
-                      <p>
-                          <a class="nav-link" aria-current="page" href="about.html">
-                              Om oss
-                              <svg viewBox="0 0 70 36">
-                                  <path
-                                      d="M6.9739 30.8153H63.0244C65.5269 30.8153 68 -2 35.5 5C8 10 3 30 25 32C50 35 55 15 23 10" />
-                              </svg>
-                          </a>
-                      </p>
-                  </li>
-                  <li class="nav-item">
-                      <p>
-                          <a class="nav-link" aria-current="page" href="index.html">
-                              Nyheter
-                              <svg viewBox="0 0 70 36">
-                                  <path d="M6.9739 30.8153H63.0244C67 28 72 -2 35 6C-5 13 8 30 26 32C60 34 58 10 25 12" />
-                              </svg>
-                          </a>
-                      </p>
-                  </li>
-                  <li class="nav-item">
-                      <p>
-                          <a class="nav-link" aria-current="page" href="varaHundar.html">
-                              Våra hundar
-                              <svg viewBox="0 0 70 36">
-                                  <path d="M6.9739 30.8153H63.0244C66 28 60 -3 36 4C10 12 5 33 27 32C55 34 50 0 24 15" />
-                              </svg>
-                          </a>
-                      </p>
-                  </li>
-                  <li class="nav-item">
-                      <p>
-                          <a class="nav-link" aria-current="page" href="index.html">
-                              Kullarna
-                              <svg viewBox="0 0 70 36">
-                                  <path
-                                      d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
-                              </svg>
-                          </a>
-                      </p>
-                  </li>
-                  <li class="nav-item">
-                      <p>
-                          <a class="nav-link" aria-current="page" href="index.html">
-                              Köpa valp
-                              <svg viewBox="0 0 70 36">
-                                  <path
-                                      d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
-                              </svg>
-                          </a>
-                      </p>
-                  </li>
-                  <li class="nav-item">
-                      <p>
-                          <a class="nav-link" aria-current="page" href="index.html">
-                              Frågor och svar
-                              <svg viewBox="0 0 70 36">
-                                  <path d="M6.9739 30.8153H63.0244C69 28 70 0 36 7C2 15 10 30 26 32C55 34 54 0 22 12" />
-                              </svg>
-                          </a>
-                      </p>
-                  </li>
-                  <li class="nav-item">
-                      <p>
-                          <a class="nav-link" aria-current="page" href="index.html">
-                              Hälsningar
-                              <svg viewBox="0 0 70 36">
-                                  <path d="M6.9739 30.8153H63.0244C64 30 70 -5 34 8C4 15 7 28 27 32C58 34 52 5 24 10" />
-                              </svg>
-                          </a>
-                      </p>
-                  </li>
-              </ul>
-          </div>
-      </div>
-  </nav>
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <p>
+                            <a class="nav-link active" aria-current="page" href="index.html">
+                                Startsida
+                                <svg viewBox="0 0 70 36">
+                                    <path
+                                        d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
+                                </svg>
+                            </a>
+                        </p>
+                    </li>
+                    <li class="nav-item">
+                        <p>
+                            <a class="nav-link" aria-current="page" href="about.html">
+                                Om oss
+                                <svg viewBox="0 0 70 36">
+                                    <path
+                                        d="M6.9739 30.8153H63.0244C65.5269 30.8153 68 -2 35.5 5C8 10 3 30 25 32C50 35 55 15 23 10" />
+                                </svg>
+                            </a>
+                        </p>
+                    </li>
+                    <li class="nav-item">
+                        <p>
+                            <a class="nav-link" aria-current="page" href="index.html">
+                                Nyheter
+                                <svg viewBox="0 0 70 36">
+                                    <path
+                                        d="M6.9739 30.8153H63.0244C67 28 72 -2 35 6C-5 13 8 30 26 32C60 34 58 10 25 12" />
+                                </svg>
+                            </a>
+                        </p>
+                    </li>
+                    <li class="nav-item">
+                        <p>
+                            <a class="nav-link" aria-current="page" href="varaHundar.html">
+                                Våra hundar
+                                <svg viewBox="0 0 70 36">
+                                    <path
+                                        d="M6.9739 30.8153H63.0244C66 28 60 -3 36 4C10 12 5 33 27 32C55 34 50 0 24 15" />
+                                </svg>
+                            </a>
+                        </p>
+                    </li>
+                    <li class="nav-item">
+                        <p>
+                            <a class="nav-link" aria-current="page" href="index.html">
+                                Kullarna
+                                <svg viewBox="0 0 70 36">
+                                    <path
+                                        d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
+                                </svg>
+                            </a>
+                        </p>
+                    </li>
+                    <li class="nav-item">
+                        <p>
+                            <a class="nav-link" aria-current="page" href="index.html">
+                                Köpa valp
+                                <svg viewBox="0 0 70 36">
+                                    <path
+                                        d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
+                                </svg>
+                            </a>
+                        </p>
+                    </li>
+                    <li class="nav-item">
+                        <p>
+                            <a class="nav-link" aria-current="page" href="index.html">
+                                Frågor och svar
+                                <svg viewBox="0 0 70 36">
+                                    <path
+                                        d="M6.9739 30.8153H63.0244C69 28 70 0 36 7C2 15 10 30 26 32C55 34 54 0 22 12" />
+                                </svg>
+                            </a>
+                        </p>
+                    </li>
+                    <li class="nav-item">
+                        <p>
+                            <a class="nav-link" aria-current="page" href="index.html">
+                                Hälsningar
+                                <svg viewBox="0 0 70 36">
+                                    <path
+                                        d="M6.9739 30.8153H63.0244C64 30 70 -5 34 8C4 15 7 28 27 32C58 34 52 5 24 10" />
+                                </svg>
+                            </a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/images/dogsCarousel/dog1.jpg" class="d-block w-100 img-fluid carousel-img" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/dogsCarousel/dog2.jpg" class="d-block w-100 img-fluid carousel-img" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/dogsCarousel/dog3.jpg" class="d-block w-100 img-fluid carousel-img" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/dogsCarousel/dog4.jpg" class="d-block w-100 img-fluid carousel-img" alt="...">
-          </div>
+            <div class="carousel-item active">
+                <img src="assets/images/dogsCarousel/dog1.jpg" class="d-block w-100 img-fluid carousel-img"
+                    alt="cute dog">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/dogsCarousel/dog2.jpg" class="d-block w-100 img-fluid carousel-img"
+                    alt="even cuter dog">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/dogsCarousel/dog3.jpg" class="d-block w-100 img-fluid carousel-img"
+                    alt="another cute dog">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/dogsCarousel/dog4.jpg" class="d-block w-100 img-fluid carousel-img"
+                    alt="the cutest dog">
+            </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </button>
-      </div>
-      
-      
-      <section class="container py-5">
+    </div>
+
+
+    <section class="container py-5">
         <h3 class="text-left m-5">
-            Allegretto's Labradoodle är en småskalig uppfödare belägen i Oskarshamn, Småland. Hos oss växer valparna upp med en passion för uppfödning. Är du intresserad av att köpa en labradoodlevalp från oss? Börja då med att fylla i en intresseanmälan.
+            Allegretto's Labradoodle är en småskalig uppfödare belägen i Oskarshamn, Småland. Hos oss växer valparna upp
+            med en passion för uppfödning. Är du intresserad av att köpa en labradoodlevalp från oss? Börja då med att
+            fylla i en intresseanmälan.
         </h3>
-    
+
         <div class="alert alert-primary text-center m-5" role="alert">
-            Just nu har vi inga fler planerade kullar. Den senaste kullen är Milla 2024 som födde 7 valpar den 1 september 2024. Alla valpar är tingade.
-        </div> 
-    
+            Just nu har vi inga fler planerade kullar. Den senaste kullen är Milla 2024 som födde 7 valpar den 1
+            september 2024. Alla valpar är tingade.
+        </div>
+
         <h3 class="text-center mt-5">Senaste nyheterna</h3>
-    
+
         <ul class="list-unstyled mx-auto p-4 border rounded" style="max-width: 600px;">
             <li class="mb-3"><strong>Milla har fått valpar!</strong> <span class="text-muted">2024-09-01</span></li>
             <li class="mb-3"><strong>Milla dräktig!</strong> <span class="text-muted">2024-08-06</span></li>
             <li class="mb-3"><strong>Lyckad parning för Milla</strong> <span class="text-muted">2024-07-03</span></li>
             <li class="mb-3"><strong>Ny kull med Doris</strong> <span class="text-muted">2024-07-01</span></li>
         </ul>
-    
+
         <p class="text-center mt-4">
-            <a href="https://www.instagram.com/allegrettoslabradoodle/" target="_blank" class="btn btn-primary">Se hur valparna har det (Instagram)</a>
+            <a href="https://www.instagram.com/allegrettoslabradoodle/" target="_blank" class="btn btn-primary">Se hur
+                valparna har det (Instagram)</a>
         </p>
     </section>
 
-      <footer>
+    <footer>
         <div class="footer-container">
-          <div class="contact-info">
-            <h4>Kontakta oss</h4>
-            <p><a href="mailto:allegrettoshundar@outlook.com">allegrettoshundar@outlook.com</a></p>
-            <p><a href="tel:+46 706645422">+46 706645422</a></p>
-            <b>Blåeldsvägen 6 <br>572 41<br>Oskarshamn</b>
-          </div>
+            <div class="contact-info">
+                <h4>Kontakta oss</h4>
+                <p><a href="mailto:allegrettoshundar@outlook.com">allegrettoshundar@outlook.com</a></p>
+                <p><a href="tel:+46 706645422">+46 706645422</a></p>
+                <b>Blåeldsvägen 6 <br>572 41<br>Oskarshamn</b>
+            </div>
 
-          <div class="newsletter-signup">
-            <h4>Skriv upp dig på vårt nyhetsbrev</h4>
-            <p>För att få information när vi väntar fler valpar.</p>
-            <form action="#" method="post">
-              <input type="email" placeholder="E-post" required>
-              <button type="submit">Prenumerera</button>
-            </form>
-          </div>
-      
-          <div class="social-media-footer">
-            <div class="social-center">
-            <h4>Följ oss</h4>
-            <p>
-                <a href="https://www.facebook.com/groups/739173963204028" target="_blank"><img src="assets/icons/Facebook.png" alt="Facebook"></a>
-            </p>
-            <p>
-                <a href="https://www.instagram.com/allegrettoslabradoodle/" target="_blank"><img src="assets/icons/Instagram_icon.png.webp" alt="Instagram"></a>
-            </p>
-            <p>
-                <a href="https://www.tiktok.com/@allegrettoshundar" target="_blank"><img src="assets/icons/tiktok.png" alt="TikTok"></a>
-            </p>
-          </div>
-        </div>
-  
-        </div>
-      </footer>
+            <div class="newsletter-signup">
+                <h4>Skriv upp dig på vårt nyhetsbrev</h4>
+                <p>För att få information när vi väntar fler valpar.</p>
+                <form action="#" method="post">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="E-post" required>
 
-      <div class="copyright">
+                    <button type="submit">Prenumerera</button>
+                </form>
+            </div>
+
+            <div class="social-media-footer">
+                <div class="social-center">
+                    <h4>Följ oss</h4>
+                    <p>
+                        <a aria-label="link to Facebook" href="https://www.facebook.com/groups/739173963204028"
+                            target="_blank"><img src="assets/icons/Facebook.png" alt="Facebook"></a>
+                    </p>
+                    <p>
+                        <a aria-label="link to Instagram" href="https://www.instagram.com/allegrettoslabradoodle/"
+                            target="_blank"><img src="assets/icons/Instagram_icon.png.webp" alt="Instagram"></a>
+                    </p>
+                    <p>
+                        <a aria-label="link to TokTok" href="https://www.tiktok.com/@allegrettoshundar"
+                            target="_blank"><img src="assets/icons/tiktok.png" alt="TikTok"></a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="copyright">
         &copy; 2024 Alegrettos Labradoodle
-      </div>
+    </div>
 
-      
-      
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-        <script src="script.js"></script>
+    <script src="script.js"></script>
 
 
 </body>
 
 </html>
-
