@@ -1,3 +1,13 @@
+:root {
+  --padding-horizontal: 10vw;
+  --padding-vertical: 5vh;
+  --heading-font-size: 1.4rem;
+  --button-font-size: 1.5rem;
+  --body-font-size: 1.25rem;
+  --border-radius: 10px;
+  --transition-time: 0.3s;
+}
+
 .main-about {
     width: auto;
     padding: 5%;
@@ -6,14 +16,12 @@
     margin-left: 5%;
     margin-right: 5%;
 }
-
 .about {
     width: auto;
     padding: 5%;
     margin-left: 5%;
     margin-right: 5%;
 }
-
 .main-julia {
     display: flex;
     width: auto;
@@ -23,29 +31,6 @@
     padding: 5%;
     border-radius: 20px;
     margin: 5%;
-}
-
-
-@media only screen and (max-width: 600px) {
-    .main-julia {
-        flex-direction: column; 
-        align-items: center;
-    }
-
-    .main-julia .image-julia img {
-        max-width: 100%;
-        height: auto; 
-    }
-}
-
-:root {
-  --padding-horizontal: 10vw;
-  --padding-vertical: 5vh;
-  --heading-font-size: 1.4rem;
-  --button-font-size: 1.5rem;
-  --body-font-size: 1.25rem;
-  --border-radius: 10px;
-  --transition-time: 0.3s;
 }
 
 .faq {
@@ -78,16 +63,6 @@
   padding: 2vh 2vw;
 }
 
-@media (max-width: 768px) {
-  :root {
-      --padding-horizontal: 5vw;
-      --heading-font-size: 1.2rem;
-      --button-font-size: 1.2rem;
-      --body-font-size: 1rem;
-  }
-}
-
-
 footer {
   background-color: whitesmoke;
   padding: 2.5rem; 
@@ -112,7 +87,6 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
- 
   border-radius: 0.5rem; 
 }
 
@@ -146,29 +120,20 @@ footer {
   display: flex;
   flex-direction: column;  
 }
-
 .social-media-footer img {
   width: 2.2rem; 
   height: 2.2rem;
   margin: 0.313rem 0; 
 }
-
-@media (max-width: 48rem) { 
-  .footer-container {
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center;
-  }
-
-  .contact-info,
-  .newsletter-signup,
-  .social-media-footer {
+.contact-info,
+.newsletter-signup,
+.social-media-footer {
     flex: unset; 
     width: 100%; 
     margin-bottom: 1.25rem; 
   }
 
-  .social-media-footer {
+.social-media-footer {
     align-items: center; 
   }
 }
@@ -181,9 +146,29 @@ footer {
   background-color: whitesmoke;
 }
 
+@media (max-width: 48rem) { 
+  .footer-container {
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+  }
 
+  @media (max-width: 768px) {
+    :root {
+        --padding-horizontal: 5vw;
+        --heading-font-size: 1.2rem;
+        --button-font-size: 1.2rem;
+        --body-font-size: 1rem;
+    }
+  }
 
-
-
-
-
+  @media only screen and (max-width: 600px) {
+    .main-julia {
+        flex-direction: column; 
+        align-items: center;
+    }
+    .main-julia .image-julia img {
+        max-width: 100%;
+        height: auto; 
+    }
+}
