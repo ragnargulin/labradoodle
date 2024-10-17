@@ -1,41 +1,39 @@
-:root {
-    --line: #BBC1E1;
-    --line-active: #275EFE;
-}
+$line: #BBC1E1;
+$line-active: #275EFE;
+$spacing: 0px;
 
 p {
-    a {
-        display: inline-block;
-        position: relative;
-        text-decoration: none;
-        color: black;
-        margin: 0 var(--spacing, 0px);
-        transition: margin .25s;
-        svg {
-            width: 100%;
-            height: 40px;
-            position: absolute;
-            left: 50%;
-            bottom: 10px;
-            transform: translate(-50%, 7px) translateZ(0);
-            fill: none;
-            stroke: var(--stroke, var(--line));
-            stroke-linecap: round;
-            stroke-width: 2px;
-            stroke-dasharray: var(--offset, 69px) 278px;
-            stroke-dashoffset: 361px;
-            transition: stroke .25s ease var(--stroke-delay, 0s), stroke-dasharray .35s;
-        }
-        &:hover, &.active  {
-            --stroke: var(--line-active);
-            --stroke-delay: .1s;
-            --offset: 180px;
-        }
+  a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    margin: 0 $spacing;
+    transition: margin .25s;
 
-
+    svg {
+      width: 100%;
+      height: 40px;
+      position: absolute;
+      left: 50%;
+      bottom: 10px;
+      transform: translate(-50%, 7px) translateZ(0);
+      fill: none;
+      stroke: $line;
+      stroke-linecap: round;
+      stroke-width: 2px;
+      stroke-dasharray: 69px 278px;
+      stroke-dashoffset: 361px;
+      transition: stroke .25s ease, stroke-dasharray .35s;
     }
-}
 
+    &:hover, &.active {
+      $stroke-delay: .1s;
+      stroke: $line-active;
+      stroke-dasharray: 180px 278px;
+    }
+  }
+}
 
 
 
